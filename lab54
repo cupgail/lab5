@@ -1,0 +1,8 @@
+l = (input())
+
+lst = l.split()
+i = lst.pop(0)
+lst = " ".join(lst)
+
+print(i)
+print(lst)

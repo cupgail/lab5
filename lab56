@@ -1,0 +1,10 @@
+an1 = input()
+an2 = input()
+
+s1 = sorted(an1.lower())
+s2 = sorted(an2.lower())
+
+if s1 == s2:
+    print(True)
+else:
+    print(False)

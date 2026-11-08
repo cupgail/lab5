@@ -1,0 +1,12 @@
+s = 0
+l = list()
+
+while True:
+    n = int(input())
+    l.append(n**2)
+    s += n 
+    if s == 0:
+        i = len(l)
+        break
+
+print(sum(l))

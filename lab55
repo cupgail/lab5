@@ -1,0 +1,14 @@
+n = [int(x) for x in input().split()]
+
+a = n[0]
+b = n[1]
+c = n[2]                    
+lst = list()
+
+for ic in range(c):
+    lst1 = list()
+    for ib in range(b):
+        lst1.append([0] * a)
+    lst.append(lst1)
+
+print(lst)
